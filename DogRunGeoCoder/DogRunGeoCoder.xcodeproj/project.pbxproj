@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22E84E2DD00A3EBC515AF01E /* Pods_DogRunGeoCoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA48A2D94544248E7040569C /* Pods_DogRunGeoCoder.framework */; };
+		F69908081DF0EFAA00B152B4 /* dogrunsnyc.json in Resources */ = {isa = PBXBuildFile; fileRef = F69908071DF0EFAA00B152B4 /* dogrunsnyc.json */; };
+		F699080A1DF0F26E00B152B4 /* jsonParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69908091DF0F26E00B152B4 /* jsonParse.swift */; };
+		F699080D1DF0FF4F00B152B4 /* DogGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F699080C1DF0FF4F00B152B4 /* DogGeocoder.swift */; };
+		F699080F1DF1010300B152B4 /* DogRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = F699080E1DF1010300B152B4 /* DogRun.swift */; };
+		F6A3B9E81DF0B71400BF901F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3B9E71DF0B71400BF901F /* AppDelegate.swift */; };
+		F6A3B9EA1DF0B71400BF901F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3B9E91DF0B71400BF901F /* ViewController.swift */; };
+		F6A3B9ED1DF0B71400BF901F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A3B9EB1DF0B71400BF901F /* Main.storyboard */; };
+		F6A3B9EF1DF0B71400BF901F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6A3B9EE1DF0B71400BF901F /* Assets.xcassets */; };
+		F6A3B9F21DF0B71400BF901F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6A3B9F01DF0B71400BF901F /* LaunchScreen.storyboard */; };
+		F6A3B9FD1DF0B71400BF901F /* DogRunGeoCoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3B9FC1DF0B71400BF901F /* DogRunGeoCoderTests.swift */; };
+		F6A3BA081DF0B71400BF901F /* DogRunGeoCoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A3BA071DF0B71400BF901F /* DogRunGeoCoderUITests.swift */; };
+		F6A3BA161DF0BCE100BF901F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6A3BA151DF0BCE100BF901F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6A3B9F91DF0B71400BF901F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6A3B9DC1DF0B71400BF901F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A3B9E31DF0B71400BF901F;
+			remoteInfo = DogRunGeoCoder;
+		};
+		F6A3BA041DF0B71400BF901F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6A3B9DC1DF0B71400BF901F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6A3B9E31DF0B71400BF901F;
+			remoteInfo = DogRunGeoCoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24432B124BE0522F8121A4AE /* Pods-DogRunGeoCoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogRunGeoCoder.release.xcconfig"; path = "Pods/Target Support Files/Pods-DogRunGeoCoder/Pods-DogRunGeoCoder.release.xcconfig"; sourceTree = "<group>"; };
+		38AD85508549666E119FAB64 /* Pods_DogRunGeoCoderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogRunGeoCoderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46237A529763C40DDDD4A7A9 /* Pods-DogRunGeoCoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogRunGeoCoder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DogRunGeoCoder/Pods-DogRunGeoCoder.debug.xcconfig"; sourceTree = "<group>"; };
+		7D379C8012BD151502F0F3AA /* Pods_DogRunGeoCoderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogRunGeoCoderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA48A2D94544248E7040569C /* Pods_DogRunGeoCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogRunGeoCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69908071DF0EFAA00B152B4 /* dogrunsnyc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dogrunsnyc.json; sourceTree = "<group>"; };
+		F69908091DF0F26E00B152B4 /* jsonParse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jsonParse.swift; sourceTree = "<group>"; };
+		F699080C1DF0FF4F00B152B4 /* DogGeocoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogGeocoder.swift; sourceTree = "<group>"; };
+		F699080E1DF1010300B152B4 /* DogRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogRun.swift; sourceTree = "<group>"; };
+		F6A3B9E41DF0B71400BF901F /* DogRunGeoCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogRunGeoCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A3B9E71DF0B71400BF901F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6A3B9E91DF0B71400BF901F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6A3B9EC1DF0B71400BF901F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6A3B9EE1DF0B71400BF901F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6A3B9F11DF0B71400BF901F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6A3B9F31DF0B71400BF901F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A3B9F81DF0B71400BF901F /* DogRunGeoCoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogRunGeoCoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A3B9FC1DF0B71400BF901F /* DogRunGeoCoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogRunGeoCoderTests.swift; sourceTree = "<group>"; };
+		F6A3B9FE1DF0B71400BF901F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A3BA031DF0B71400BF901F /* DogRunGeoCoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogRunGeoCoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6A3BA071DF0B71400BF901F /* DogRunGeoCoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogRunGeoCoderUITests.swift; sourceTree = "<group>"; };
+		F6A3BA091DF0B71400BF901F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6A3BA151DF0BCE100BF901F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6A3B9E11DF0B71400BF901F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E84E2DD00A3EBC515AF01E /* Pods_DogRunGeoCoder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A3B9F51DF0B71400BF901F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A3BA001DF0B71400BF901F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4566933D4B8ACA94E3C29C6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46237A529763C40DDDD4A7A9 /* Pods-DogRunGeoCoder.debug.xcconfig */,
+				24432B124BE0522F8121A4AE /* Pods-DogRunGeoCoder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF7E9658B6A158F3ED550D8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA48A2D94544248E7040569C /* Pods_DogRunGeoCoder.framework */,
+				7D379C8012BD151502F0F3AA /* Pods_DogRunGeoCoderTests.framework */,
+				38AD85508549666E119FAB64 /* Pods_DogRunGeoCoderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F69908101DF1D0EC00B152B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F699080E1DF1010300B152B4 /* DogRun.swift */,
+				F69908071DF0EFAA00B152B4 /* dogrunsnyc.json */,
+				F699080C1DF0FF4F00B152B4 /* DogGeocoder.swift */,
+				F69908091DF0F26E00B152B4 /* jsonParse.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F69908111DF1D12500B152B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F6A3B9E91DF0B71400BF901F /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F6A3B9DB1DF0B71400BF901F = {
+			isa = PBXGroup;
+			children = (
+				F6A3B9E61DF0B71400BF901F /* DogRunGeoCoder */,
+				F6A3B9FB1DF0B71400BF901F /* DogRunGeoCoderTests */,
+				F6A3BA061DF0B71400BF901F /* DogRunGeoCoderUITests */,
+				F6A3B9E51DF0B71400BF901F /* Products */,
+				4566933D4B8ACA94E3C29C6A /* Pods */,
+				DF7E9658B6A158F3ED550D8E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6A3B9E51DF0B71400BF901F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6A3B9E41DF0B71400BF901F /* DogRunGeoCoder.app */,
+				F6A3B9F81DF0B71400BF901F /* DogRunGeoCoderTests.xctest */,
+				F6A3BA031DF0B71400BF901F /* DogRunGeoCoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6A3B9E61DF0B71400BF901F /* DogRunGeoCoder */ = {
+			isa = PBXGroup;
+			children = (
+				F69908101DF1D0EC00B152B4 /* Model */,
+				F69908111DF1D12500B152B4 /* Controller */,
+				F6A3B9E71DF0B71400BF901F /* AppDelegate.swift */,
+				F6A3B9EB1DF0B71400BF901F /* Main.storyboard */,
+				F6A3B9EE1DF0B71400BF901F /* Assets.xcassets */,
+				F6A3B9F01DF0B71400BF901F /* LaunchScreen.storyboard */,
+				F6A3B9F31DF0B71400BF901F /* Info.plist */,
+				F6A3BA151DF0BCE100BF901F /* GoogleService-Info.plist */,
+			);
+			path = DogRunGeoCoder;
+			sourceTree = "<group>";
+		};
+		F6A3B9FB1DF0B71400BF901F /* DogRunGeoCoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6A3B9FC1DF0B71400BF901F /* DogRunGeoCoderTests.swift */,
+				F6A3B9FE1DF0B71400BF901F /* Info.plist */,
+			);
+			path = DogRunGeoCoderTests;
+			sourceTree = "<group>";
+		};
+		F6A3BA061DF0B71400BF901F /* DogRunGeoCoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6A3BA071DF0B71400BF901F /* DogRunGeoCoderUITests.swift */,
+				F6A3BA091DF0B71400BF901F /* Info.plist */,
+			);
+			path = DogRunGeoCoderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6A3B9E31DF0B71400BF901F /* DogRunGeoCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A3BA0C1DF0B71400BF901F /* Build configuration list for PBXNativeTarget "DogRunGeoCoder" */;
+			buildPhases = (
+				AD9CA5354FBD8334BEC24A7B /* [CP] Check Pods Manifest.lock */,
+				F6A3B9E01DF0B71400BF901F /* Sources */,
+				F6A3B9E11DF0B71400BF901F /* Frameworks */,
+				F6A3B9E21DF0B71400BF901F /* Resources */,
+				0D33E83D06B3187E8EA20AE7 /* [CP] Embed Pods Frameworks */,
+				F068B19D65F66C7096A20CE9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogRunGeoCoder;
+			productName = DogRunGeoCoder;
+			productReference = F6A3B9E41DF0B71400BF901F /* DogRunGeoCoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6A3B9F71DF0B71400BF901F /* DogRunGeoCoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A3BA0F1DF0B71400BF901F /* Build configuration list for PBXNativeTarget "DogRunGeoCoderTests" */;
+			buildPhases = (
+				F6A3B9F41DF0B71400BF901F /* Sources */,
+				F6A3B9F51DF0B71400BF901F /* Frameworks */,
+				F6A3B9F61DF0B71400BF901F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A3B9FA1DF0B71400BF901F /* PBXTargetDependency */,
+			);
+			name = DogRunGeoCoderTests;
+			productName = DogRunGeoCoderTests;
+			productReference = F6A3B9F81DF0B71400BF901F /* DogRunGeoCoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6A3BA021DF0B71400BF901F /* DogRunGeoCoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6A3BA121DF0B71400BF901F /* Build configuration list for PBXNativeTarget "DogRunGeoCoderUITests" */;
+			buildPhases = (
+				F6A3B9FF1DF0B71400BF901F /* Sources */,
+				F6A3BA001DF0B71400BF901F /* Frameworks */,
+				F6A3BA011DF0B71400BF901F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6A3BA051DF0B71400BF901F /* PBXTargetDependency */,
+			);
+			name = DogRunGeoCoderUITests;
+			productName = DogRunGeoCoderUITests;
+			productReference = F6A3BA031DF0B71400BF901F /* DogRunGeoCoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6A3B9DC1DF0B71400BF901F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Missy Allan";
+				TargetAttributes = {
+					F6A3B9E31DF0B71400BF901F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 57Z2TZGD3U;
+						ProvisioningStyle = Automatic;
+					};
+					F6A3B9F71DF0B71400BF901F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6A3B9E31DF0B71400BF901F;
+					};
+					F6A3BA021DF0B71400BF901F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F6A3B9E31DF0B71400BF901F;
+					};
+				};
+			};
+			buildConfigurationList = F6A3B9DF1DF0B71400BF901F /* Build configuration list for PBXProject "DogRunGeoCoder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6A3B9DB1DF0B71400BF901F;
+			productRefGroup = F6A3B9E51DF0B71400BF901F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6A3B9E31DF0B71400BF901F /* DogRunGeoCoder */,
+				F6A3B9F71DF0B71400BF901F /* DogRunGeoCoderTests */,
+				F6A3BA021DF0B71400BF901F /* DogRunGeoCoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6A3B9E21DF0B71400BF901F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69908081DF0EFAA00B152B4 /* dogrunsnyc.json in Resources */,
+				F6A3B9F21DF0B71400BF901F /* LaunchScreen.storyboard in Resources */,
+				F6A3BA161DF0BCE100BF901F /* GoogleService-Info.plist in Resources */,
+				F6A3B9EF1DF0B71400BF901F /* Assets.xcassets in Resources */,
+				F6A3B9ED1DF0B71400BF901F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A3B9F61DF0B71400BF901F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A3BA011DF0B71400BF901F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D33E83D06B3187E8EA20AE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogRunGeoCoder/Pods-DogRunGeoCoder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9CA5354FBD8334BEC24A7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F068B19D65F66C7096A20CE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogRunGeoCoder/Pods-DogRunGeoCoder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6A3B9E01DF0B71400BF901F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F699080A1DF0F26E00B152B4 /* jsonParse.swift in Sources */,
+				F6A3B9EA1DF0B71400BF901F /* ViewController.swift in Sources */,
+				F699080D1DF0FF4F00B152B4 /* DogGeocoder.swift in Sources */,
+				F699080F1DF1010300B152B4 /* DogRun.swift in Sources */,
+				F6A3B9E81DF0B71400BF901F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A3B9F41DF0B71400BF901F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A3B9FD1DF0B71400BF901F /* DogRunGeoCoderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A3B9FF1DF0B71400BF901F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6A3BA081DF0B71400BF901F /* DogRunGeoCoderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6A3B9FA1DF0B71400BF901F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6A3B9E31DF0B71400BF901F /* DogRunGeoCoder */;
+			targetProxy = F6A3B9F91DF0B71400BF901F /* PBXContainerItemProxy */;
+		};
+		F6A3BA051DF0B71400BF901F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6A3B9E31DF0B71400BF901F /* DogRunGeoCoder */;
+			targetProxy = F6A3BA041DF0B71400BF901F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6A3B9EB1DF0B71400BF901F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A3B9EC1DF0B71400BF901F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6A3B9F01DF0B71400BF901F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6A3B9F11DF0B71400BF901F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6A3BA0A1DF0B71400BF901F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6A3BA0B1DF0B71400BF901F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6A3BA0D1DF0B71400BF901F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46237A529763C40DDDD4A7A9 /* Pods-DogRunGeoCoder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57Z2TZGD3U;
+				INFOPLIST_FILE = DogRunGeoCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flatiron-School.DogRunGeoCoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F6A3BA0E1DF0B71400BF901F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24432B124BE0522F8121A4AE /* Pods-DogRunGeoCoder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57Z2TZGD3U;
+				INFOPLIST_FILE = DogRunGeoCoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flatiron-School.DogRunGeoCoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F6A3BA101DF0B71400BF901F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DogRunGeoCoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flatiron-School.DogRunGeoCoderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogRunGeoCoder.app/DogRunGeoCoder";
+			};
+			name = Debug;
+		};
+		F6A3BA111DF0B71400BF901F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DogRunGeoCoderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flatiron-School.DogRunGeoCoderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogRunGeoCoder.app/DogRunGeoCoder";
+			};
+			name = Release;
+		};
+		F6A3BA131DF0B71400BF901F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DogRunGeoCoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flatiron-School.DogRunGeoCoderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DogRunGeoCoder;
+			};
+			name = Debug;
+		};
+		F6A3BA141DF0B71400BF901F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DogRunGeoCoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Flatiron-School.DogRunGeoCoderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DogRunGeoCoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6A3B9DF1DF0B71400BF901F /* Build configuration list for PBXProject "DogRunGeoCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A3BA0A1DF0B71400BF901F /* Debug */,
+				F6A3BA0B1DF0B71400BF901F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A3BA0C1DF0B71400BF901F /* Build configuration list for PBXNativeTarget "DogRunGeoCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A3BA0D1DF0B71400BF901F /* Debug */,
+				F6A3BA0E1DF0B71400BF901F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A3BA0F1DF0B71400BF901F /* Build configuration list for PBXNativeTarget "DogRunGeoCoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A3BA101DF0B71400BF901F /* Debug */,
+				F6A3BA111DF0B71400BF901F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6A3BA121DF0B71400BF901F /* Build configuration list for PBXNativeTarget "DogRunGeoCoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A3BA131DF0B71400BF901F /* Debug */,
+				F6A3BA141DF0B71400BF901F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6A3B9DC1DF0B71400BF901F /* Project object */;
+}

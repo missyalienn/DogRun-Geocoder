@@ -1,0 +1,6 @@
+framework module Pods_DogRunGeoCoder {
+  umbrella header "Pods-DogRunGeoCoder-umbrella.h"
+
+  export *
+  module * { export * }
+}

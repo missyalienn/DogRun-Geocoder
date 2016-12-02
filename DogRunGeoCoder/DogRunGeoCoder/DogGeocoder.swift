@@ -10,3 +10,14 @@ import Foundation
 import CoreLocation
 import GeoFire
 
+class DogGeocoder {
+    
+ //
+    
+    
+    
+    
+    
+    
+    
+}

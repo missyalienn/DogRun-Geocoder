@@ -39,7 +39,6 @@ class DogRun {
     
     
     
-    // call get coordinates in initializer and print address and coordinates
     
     func getCoordinates() {
         
@@ -60,8 +59,9 @@ class DogRun {
                 self.longitude = coordinate?.longitude
                 
                 dump(self)
-                
             }
+            
+            
         })
         
     }

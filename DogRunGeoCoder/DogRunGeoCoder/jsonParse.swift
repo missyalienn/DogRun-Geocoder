@@ -17,13 +17,18 @@ class jsonParse {
         let data = try! NSData(contentsOfFile:filePath!, options: NSData.ReadingOptions.uncached)
         
         do {
-         
-            let dogDictionary = try JSONSerialization.jsonObject(with: data as Data, options: []) as! [String: [String: Any]]
+            
+            
+            let dogDictionary = try JSONSerialization.jsonObject(with: data as Data, options: []) as! [String : [String : Any]]
+            
+           // guard let dogDictionaryUnwrapped = dogDictionary else { print("error unwrapping dog dict"); return }
+            
             completion(dogDictionary)
          
         } catch {
             
             print("JSONSerialization not working...")
+            print(error)
         }
     }
     

@@ -20,15 +20,15 @@
          {
             "Prop_ID": "X010",
             "Name": "Crotona Park Off-Leash Area",
-            "Address": "Except for playgrounds and other areas where dogs are expressly prohibited via signage, all areas of the park are off-leash during designated hours.",
+            "Address": "611 Crotona Park N, Bronx, NY 10457",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Except for playgrounds and other areas where dogs are expressly prohibited via signage, all areas of the park are off-leash during designated hours."
          },
          {
             "Prop_ID": "X013",
             "Name": "Devoe Park Off-Leash Area",
-            "Address": "192nd & Jerome Avenue",
+            "Address": "W 192nd & Jerome Avenue, Bronx, NY, 10468",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -36,10 +36,10 @@
          {
             "Prop_ID": "X019",
             "Name": "Ewen Park Dog Run",
-            "Address": "Riverdale to Johnson avenues, south of West 232nd Street",
+            "Address":  "W 232nd St, Bronx, NY 10463",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Riverdale to Johnson avenues, south of West 232nd Street"
          },
          {
             "Prop_ID": "X110A",
@@ -52,15 +52,15 @@
          {
             "Prop_ID": "X047",
             "Name": "Franz Sigel Park Dog Run",
-            "Address": "Center of the park, just north of the ballfields which would line up with around 155th Street.",
+            "Address": "774 Grand Concourse Fleetwood - Concourse Village, NY 10451",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Center of the park, just north of the ballfields which would line up with around 155th Street."
          },
          {
             "Prop_ID": "X080",
             "Name": "Henry Hudson Park Off-Leash Area",
-            "Address": "Kappock Street and Independence Avenue",
+            "Address": "Kappock Street and Independence Avenue, Bronx, NY 10463",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -68,15 +68,15 @@
          {
             "Prop_ID": "X010",
             "Name": "Hylan Park Off-Leash Area",
-            "Address": "Except for playgrounds and other areas where dogs are expressly prohibited via signage, all areas of the park are off-leash during designated hours.",
+            "Address": "",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Except for playgrounds and other areas where dogs are expressly prohibited via signage, all areas of the park are off-leash during designated hours."
          },
          {
             "Prop_ID": "X015",
-            "Name": "Joseph Rodham Drake Park Off-Leash Area",
-            "Address": "",
+            "Name": "Joseph Rodman Drake Park Off-Leash Area",
+            "Address": "Drake Park S, Bronx, NY 10474",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -84,7 +84,7 @@
          {
             "Prop_ID": "X034",
             "Name": "Mullaly Park Off-Leash Area",
-            "Address": "",
+            "Address": "E 164th St & River Ave, Bronx, NY 10452",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -92,7 +92,7 @@
          {
             "Prop_ID": "X039",
             "Name": "Pelham Bay Park Off-Leash Area",
-            "Address": "Middletown Road & Stadium Avenue, northwest of parking lot.",
+            "Address": "Middletown Road & Stadium Avenue, Bronx, NY 10465",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": "The dog run at Pelham Bay Park is close to Watt Avenue and Middletown Road.  Both streets merge at the entrance to the parking lot on Middletown Road. The dog run is about 100 yards east of that point.<br><a href=\"http://nycgovparks.org/parks/X039/map/pelhambay_dogonleasharea.pdf\">Please download our map of permitted on-leash dog areas.</a>"
@@ -100,7 +100,7 @@
          {
             "Prop_ID": "X017",
             "Name": "Richman (Echo) Park Off-Leash Area",
-            "Address": "",
+            "Address": "Valentine Ave, Bronx, NY 10457",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -108,15 +108,15 @@
          {
             "Prop_ID": "X142",
             "Name": "Riverdale Park Off-Leash Area",
-            "Address": "Palisade Avenue from West 232 Street to West 254 Street",
+            "Address": "254 Palisade Ave, Bronx, NY 10463",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Palisade Avenue from West 232 Street to West 254 Street"
          },
          {
             "Prop_ID": "X201",
             "Name": "Seton Park Dog Run",
-            "Address": "West 232nd Street & Independence Avenue",
+            "Address": "West 232nd Street & Independence Avenue, Bronx, NY 10463",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": ""
@@ -124,7 +124,7 @@
          {
             "Prop_ID": "X150G",
             "Name": "Siren Slope Park Off-Leash Area",
-            "Address": "Bailey Avenue and West 230 Street",
+            "Address": "Bailey Avenue and West 230 Street, Bronx NY 10463",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -132,7 +132,7 @@
          {
             "Prop_ID": "X091",
             "Name": "Spuyten Duyvil Park Off-Leash Area",
-            "Address": "Palisade Avenue and Independence Avenue",
+            "Address": "Palisade Avenue and Independence Avenue, Bronx NY",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -140,7 +140,7 @@
          {
             "Prop_ID": "X044",
             "Name": "St. James Park Off-Leash Area",
-            "Address": "92nd & Jerome Avenue",
+            "Address": "92nd & Jerome Avenue, Bronx NY 10468",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": "St. James closes at 9:00 p.m. and opens at 7:00 a.m. Therefore, the off-leash policy only applies between 7:00 a.m. and 9:00 a.m."
@@ -148,15 +148,15 @@
          {
             "Prop_ID": "X010A",
             "Name": "Tremont Park Off-Leash Area",
-            "Address": "Except for playgrounds and other areas where dogs are expressly prohibited via signage, all areas of the park are off-leash during designated hours.",
+            "Address": "E 175 St to E Tremont Ave, Bronx, NY 10457",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Except for playgrounds and other areas where dogs are expressly prohibited via signage, all areas of the park are off-leash during designated hours."
          },
          {
             "Prop_ID": "X051",
             "Name": "University Woods Park Off-Leash Area",
-            "Address": "",
+            "Address": "Cedar Ave., Sedgwick Ave. bet. Hall of Fame Ter. and W. 180 St., Bronx NY 10468",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -164,7 +164,7 @@
          {
             "Prop_ID": "X092",
             "Name": "Van Cortlandt Park Dog Run",
-            "Address": "Broadway and 252 Street",
+            "Address": "Broadway and 252 Street, Bronx NY 10462",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": ""

@@ -14,7 +14,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
       
         
-    
+        let store = DataStore.sharedInstance
+        store.getDogRunFromJSON()
+        print(store.dogruns.count)
+        
+    print("i can actually print something !!!")
+        
+        for index in 22..<32 {
+            let dogRun = store.dogruns[index]
+            dogRun.getCoordinates()
+            
+        }
     
         
     }

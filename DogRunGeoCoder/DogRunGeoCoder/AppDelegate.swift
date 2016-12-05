@@ -18,21 +18,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         FIRApp.configure()
         
-        let store = DataStore.sharedInstance
-        store.getDogRunFromJSON()
+//        let store = DataStore.sharedInstance
+//        store.getDogRunFromJSON()
+//        print(store.dogruns.count)
         
-        for index in 0..<10 {
-            
-            let dogRun = store.dogruns[index]
-            dogRun.getCoordinates()
-            
-        }
-        
-
-        
-        
-        
-        
+//        for index in 0..<8 {
+//            
+//            let dogRun = store.dogruns[index]
+//            dogRun.getCoordinates()
+//            sleep(1)
+//            
+//
         return true
     }
 

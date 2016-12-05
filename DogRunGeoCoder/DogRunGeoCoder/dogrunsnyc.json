@@ -340,23 +340,23 @@
          {
             "Prop_ID": "B052",
             "Name": "Leif Ericson Park Off-Leash Area",
-            "Address": "67th Street between 6th Avenue and 7th Avenue",
+            "Address": "66th St & 8th Ave, Brooklyn, NY 11220",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "67th Street between 6th Avenue and 7th Avenue"
          },
          {
             "Prop_ID": "B054",
             "Name": "Lincoln Terrace Park Off-Leash Area",
-            "Address": "Eastern Parkway between Buffalo and Rochester avenues",
+            "Address": "Eastern Pkwy., E. New York Ave. bet. Rochester Ave. and Portal St., Brooklyn, NY 11213",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Eastern Parkway between Buffalo and Rochester avenues"
          },
          {
             "Prop_ID": "B223S",
             "Name": "Macri Square Park Off-Leash Area",
-            "Address": "Union Turnpike and Metropolitan Avenue",
+            "Address": "475 Union Ave, Brooklyn, NY 11211",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": "Off-leash dogs are permitted throughout this small park."
@@ -364,23 +364,23 @@
          {
             "Prop_ID": "B251",
             "Name": "Manhattan Beach Dog Run",
-            "Address": "East of Ocean Avenue, North Shore Rockaway inlet",
+            "Address": "Ocean Ave & Mackenzie St, Brooklyn, NY 11235",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "East of Ocean Avenue, North Shore Rockaway inlet"
          },
          {
             "Prop_ID": "B057",
             "Name": "Marine Park Off-Leash Area",
-            "Address": "All areas excluding the playgrounds, ballfields, and Natural Areas.",
+            "Address": "Gerritsen Ave, Brooklyn, NY 11229",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "All areas excluding the playgrounds, ballfields, and Natural Areas"
          },
          {
             "Prop_ID": "B058",
             "Name": "McCarren Park Dog Run",
-            "Address": "North 12th Street, Driggs Avenue and Union Avenue",
+            "Address": "North 12th Street, Driggs Avenue and Union Avenue, Brooklyn NY 11211",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": ""
@@ -388,7 +388,7 @@
          {
             "Prop_ID": "B114",
             "Name": "McGolrick Park Dog Run",
-            "Address": "North Henry Street and Driggs Avenue",
+            "Address": "North Henry Street and Driggs Avenue, Brooklyn NY 11222",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": ""
@@ -396,7 +396,7 @@
          {
             "Prop_ID": "B060",
             "Name": "McKinley Park Off-Leash Area",
-            "Address": "Fort Hamilton Parkway, 7th Avenue, 73rd Street to 75th Street",
+            "Address": "Fort Hamilton Parkway, 7th Avenue, 73rd Street to 75th Street, Brooklyn, NY 11228",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -404,7 +404,7 @@
          {
             "Prop_ID": "B159",
             "Name": "Mount Prospect Park Off-Leash Area",
-            "Address": "Eastern Parkway between Washington and Underhill avenues",
+            "Address": "Eastern Parkway between Washington and Underhill avenues, Brooklyn, NY 11238",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -412,7 +412,7 @@
          {
             "Prop_ID": "B066",
             "Name": "Owls Head Park Dog Run",
-            "Address": "68th Street and Shore Road",
+            "Address": "Colonial Rd & 68 St & Shore Rd, Brooklyn, NY 11220",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": ""
@@ -420,66 +420,66 @@
          {
             "Prop_ID": "B223DA",
             "Name": "Adam Yauch Park Dog Run",
-            "Address": "Columbia Place & State Street",
+            "Address": "27 State St, Brooklyn, NY 11201",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Columbia Place & State Street"
          },
          {
             "Prop_ID": "B073",
             "Name": "Prospect Park Off-Leash Area",
-            "Address": "Middle & Upper Long Meadow (excludes ballfield area in the Lower Long Meadow), Nethermead, Peninsula.",
+            "Address": "95 Prospect Park W Brooklyn, NY 11215",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Middle & Upper Long Meadow (excludes ballfield area in the Lower Long Meadow), Nethermead, Peninsula"
          },
          {
             "Prop_ID": "B082",
             "Name": "Shore Road Park Off-Leash Area",
-            "Address": "Shore Road, 4th Avenue to 69th Street",
+            "Address": "11209 Fort Hamilton, Bay Ridge, Brooklyn NY",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Shore Road, 4th Avenue to 69th Street"
          },
          {
             "Prop_ID": "B087",
             "Name": "Sunset Park Off-Leash Area",
-            "Address": "Sunset Park Oval lawn area only, center of park 44th Street, 41st Street, 6th Avenue",
+            "Address": "6th Ave and 44th St, Brooklyn, NY 11220",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Sunset Park Oval lawn area only, center of park 44th Street, 41st Street, 6th Avenue"
          },
          {
             "Prop_ID": "M081",
             "Name": "Carl Schurz Park Dog Run (2 runs)",
-            "Address": "East End Avenue to East River from Gracie Square (East 84th Street) to 89th Street",
+            "Address": "East 86th Street & East End Ave, New York, NY 10028",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "East End Avenue to East River from Gracie Square (East 84th Street) to 89th Street"
          },
          {
             "Prop_ID": "M010",
             "Name": "Central Park Off-Leash Area",
-            "Address": "Though there are no enclosed dog runs, there are 23 particularly dog-friendly areas scattered throughout the Park.",
+            "Address": "455 Central Park W, New York, NY, US, 10025",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": "Please see Central Park Conservancy's <a href=\"http://www.centralparknyc.org/assets/pdfs/dogfriendlyareas.pdf\">Dog-Friendly Areas</a> document for details."
+            "Notes": "Though there are no enclosed dog runs, there are 23 particularly dog-friendly areas scattered throughout the Park. See Central Park Conservancy's Dog Friendly Areas document for details."
          },
          {
             "Prop_ID": "M",
             "Name": "Chelsea Waterside Park Dog Run",
-            "Address": "11th Ave and 22nd Street",
+            "Address": "11th Ave and 22nd Street, NY 10011",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": "<em>*Please note: this dog run is administered by the Hudson River Park Trust.</em>\r\n<br /><a href=\"http://www.hudsonriverpark.org/explore/dogruncw.html\">More information.</a>"
+            "Notes": "Please note: this dog run is administered by the Hudson River Park Trust."
          },
          {
             "Prop_ID": "M019",
             "Name": "Coleman Oval Park Dog Run",
-            "Address": "Pike and Monroe streets",
+            "Address": "58 Market St, New York, NY 10002",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Pike and Monroe streets"
          },
          {
             "Prop_ID": "M022",

@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
     print("i can actually print something !!!")
         
-        for index in 44..<60 {
+        for index in 80..<90 {
             let dogRun = store.dogruns[index]
             dogRun.getCoordinates()
             

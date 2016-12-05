@@ -484,7 +484,7 @@
          {
             "Prop_ID": "M022",
             "Name": "De Witt Clinton Park Dog Run (2 runs)",
-            "Address": "West 52nd Street & West 54th Street, between 10th & 11th avenues",
+            "Address": "West 52nd Street & West 54th Street, between 10th & 11th avenues, New York NY 10019",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": ""
@@ -500,114 +500,114 @@
          {
             "Prop_ID": "M029",
             "Name": "Fort Tryon Park Dog Run",
-            "Address": "Margaret Corbin Drive",
+            "Address": "Riverside Dr To Broadway, New York, NY 10040",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": "<a href=\"http://www.ftdog.org/\">More information.</a>"
+            "Notes": ""
          },
          {
             "Prop_ID": "M028",
             "Name": "Ft. Washington Park Dog Run",
-            "Address": "165th Street & Riverside Drive",
+            "Address": "Hudson River Greenway, New York, NY 10032",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "165th Street & Riverside Drive"
          },
          {
             "Prop_ID": "M037",
             "Name": "Highbridge Park Dog Run",
-            "Address": "Amsterdam and Fort George avenues",
+            "Address": "2301 Amsterdam Ave, New York, NY 10033",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": "<a href=\"http://www.highbridgek9club.org/\">More Information</a>."
+            "Notes": "Amsterdam and Fort George avenues"
          },
          {
             "Prop_ID": "M",
             "Name": "Hudson River Park Dog Run (Greenwich Village)",
-            "Address": "Leroy Street at the northeast corner of Pier 40",
+            "Address": "Hudson River Park Pier 40, 353 West St, New York, NY 10014",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": "<a href=\"http://www.hudsonriverpark.org/explore/dogrunleroyst.html\">More information.</a>"
+            "Notes": "Leroy Street at the northeast corner of Pier 40"
          },
          {
             "Prop_ID": "M",
             "Name": "Hudson River Park Dog Run (North Chelsea)",
-            "Address": "Pier 84 at West 44th Street",
+            "Address": "Pier 84 at West 44th Street, New York NY",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": "<a href=\"http://www.hudsonriverpark.org/explore/dogrunpier84.html\">More information.</a>"
+            "Notes": "Cross at W 44th St at Pier 84"
          },
          {
             "Prop_ID": "M042",
             "Name": "Inwood Hill Park Dog Run: Homer's Run",
-            "Address": "Seaman Avenue & Isham Street",
+            "Address": "Dyckman St, New York, NY 10452",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": "Seaman Avenue & Isham Street, just north of the flagpole. More information at <a href=\"http://www.inwoof.com/\">www.inwoof.com </a>."
+            "Notes": "Seaman Avenue & Isham Street, just north of the flagpole."
          },
          {
             "Prop_ID": "M099",
             "Name": "J. Hood Wright Park Dog Run",
-            "Address": "Fort Washington & Haven Avenues, West 173rd Street",
+            "Address": "Haven Ave & W 173rd St, New York, NY 10032",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Fort Washington & Haven Avenues, West 173rd Street"
          },
          {
             "Prop_ID": "M052",
             "Name": "Madison Square Park Dog Run",
-            "Address": "Madison Avenue to 5th Avenue between East 23rd Street & East 26th Street",
+            "Address": "Broadway, New York NY 10010",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Madison Avenue to 5th Avenue between East 23rd Street & East 26th Street"
          },
          {
             "Prop_ID": "M058",
             "Name": "Marcus Garvey Park Dog Run",
-            "Address": "Madison Avenue and East 120th Street",
+            "Address": "18 Mt Morris Park W, New York, NY 10027",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Madison Avenue and East 120th Street"
          },
          {
             "Prop_ID": "M056",
             "Name": "Morningside Park Dog Run",
-            "Address": "Morningside Avenue between 114th and 119th streets",
+            "Address": "6 Morningside Ave Manhattan, NY 10026",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Morningside Avenue between 114th and 119th streets"
          },
          {
             "Prop_ID": "M108N",
             "Name": "Peter Detmold Park Dog Run",
-            "Address": "West of FDR Drive, between East 49th & East 51st streets",
+            "Address": "454 E 51st St, New York, NY 10022",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "West of FDR Drive, between East 49th & East 51st streets"
          },
          {
             "Prop_ID": "M104",
             "Name": "Randalls Island Park Off-Leash Area",
-            "Address": "Except for areas where dogs are expressly prohibited via signage, all areas of the park are off-leash during designated hours.",
+            "Address": "20 Randalls Island Park, New York, NY 10035",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": "Off-leash hours for the island are before 9:00 a.m. and after 9:00 p.m."
+            "Notes": "Off-leash hours for the island are before 9:00 a.m. and after 9:00 p.m.Except for areas where dogs are expressly prohibited via signage, all areas of the park are off-leash during designated hours. "
          },
          {
             "Prop_ID": "M071",
-            "Name": "Riverside Park Dog Run (3 runs)",
-            "Address": "Riverside Drive at West 72nd, West 87th, West 105th",
+            "Name": "Riverside Park Dog Runs",
+            "Address": "Riverside Blvd, New York, NY 10115",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": "<a href=\"http://nycgovparks.org/sub_your_park/vt_riverside_park/images/dog_owners_guide_riverside_park.pdf\">Dog Owners' Guide to Riverside Park </a>"
+            "Notes": "3 Runs: Riverside Drive at West 72nd, West 87th, and West 105th"
          },
          {
             "Prop_ID": "M158",
             "Name": "Robert Moses Park Dog Run",
-            "Address": "41st & 42nd streets at 1st Avenue",
+            "Address": "42nd St at 1st Ave, Manhattan, NY 10017",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "41st & 42nd streets at 1st Avenue"
          },
          {
             "Prop_ID": "M077",

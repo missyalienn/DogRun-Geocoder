@@ -12,11 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+      
         
-        // call jsonParse function which gives completion which contains dictionary. 
-        // must iterate over dictonary to create dogRun objects 
+    
+    
         
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {

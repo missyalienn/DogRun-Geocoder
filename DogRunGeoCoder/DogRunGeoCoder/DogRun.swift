@@ -7,25 +7,27 @@
 //
 
 import Foundation
+import CoreLocation
+import AddressBook
 
 class DogRun {
     
     let dogRunID: String
     let name: String
     let address: String
-    var latitude: String? = nil
-    var longitude: String? = nil
+    var latitude: Double?
+    var longitude: Double?
     var notes: String
-    var isOffLeash: Bool = false //
+    var isOffLeash: Bool = false 
     var isAccessible: Bool = false
     
     init(dogDictionary: [String: Any]) {
         
-       self.dogRunID = "DogRun ID: \(dogDictionary["Prop_ID"])"
-       self.name = dogDictionary["Name"] as! String
-       self.address = dogDictionary["Address"] as! String
-       self.notes = dogDictionary["Notes"] as! String
-       
+        self.dogRunID = "DogRun ID: \(dogDictionary["Prop_ID"])"
+        self.name = dogDictionary["Name"] as! String
+        self.address = dogDictionary["Address"] as! String
+        self.notes = dogDictionary["Notes"] as! String
+        
         if dogDictionary["DogRuns_Type"] as! String == "Off-Leash" {
             self.isOffLeash = true
         }
@@ -33,12 +35,41 @@ class DogRun {
         if dogDictionary["Accessible"] as! String == "Y" {
             self.isAccessible = true
         }
-
     }
     
     
     
+    // call get coordinates in initializer and print address and coordinates
     
-
-
+    func getCoordinates() {
+        
+//        var coordinates: (Double, Double) = (0.0, 0.0)
+//        let geocoder = CLGeocoder()
+        
+        CLGeocoder().geocodeAddressString(self.address, completionHandler: { (placemarks, error) in
+            if error != nil {
+                print("\(error)")
+                return
+            }
+            if (placemarks?.count)! > 0 {
+                let placemark = placemarks?[0]
+                let location = placemark?.location
+                let coordinate = location?.coordinate
+                
+                self.latitude = coordinate?.latitude
+                self.longitude = coordinate?.longitude
+                
+                dump(self)
+                
+            }
+        })
+        
+    }
+    
+    
+    
 }
+
+
+
+

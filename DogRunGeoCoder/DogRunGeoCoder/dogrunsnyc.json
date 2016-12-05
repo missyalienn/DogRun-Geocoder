@@ -172,7 +172,7 @@
          {
             "Prop_ID": "X259",
             "Name": "Wallenberg Forest Park Off-Leash Area",
-            "Address": "Palisade Avenue, Douglas Avenue, West 235 Street",
+            "Address": "Palisade Avenue, Douglas Avenue, West 235 Street, Bronx NY",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -180,7 +180,7 @@
          {
             "Prop_ID": "X104",
             "Name": "Williamsbridge Oval Dog Run",
-            "Address": "3225 Reservoir Oval East",
+            "Address": "3225 Reservoir Oval East, Bronx NY 10467",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": ""
@@ -188,7 +188,7 @@
          {
             "Prop_ID": "B080",
             "Name": "Asser Levy Park Off-Leash Area",
-            "Address": "Surf Avenue, Sea Breeze Avenue, West 5th Street, Ocean Parkway",
+            "Address": "Surf Avenue, Sea Breeze Avenue, West 5th Street, Ocean Parkway, Brooklyn NY",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -196,47 +196,47 @@
          {
             "Prop_ID": "B247",
             "Name": "Breukelen Park Off-Leash Area",
-            "Address": "All areas excluding the playground and ballfields",
+            "Address": "Glenwood Rd & Williams Ave, Brooklyn, NY 11236 ",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "All areas excluding the playground and ballfields"
          },
          {
             "Prop_ID": "B431",
             "Name": "Brooklyn Bridge Park Dog Run",
-            "Address": "Pier 6",
+            "Address": "Adams St & Plymouth St, Brooklyn, NY 11201",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Pier 6"
          },
          {
             "Prop_ID": "B113A",
             "Name": "Brooklyn War Memorial Off-Leash Area",
-            "Address": "Cadman Plaza Park, Cadman Plaza West & East & Prospect Street",
+            "Address": "195 Cadman Plaza W, Brooklyn, NY 11201",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Cadman Plaza Park, Cadman Plaza West & East & Prospect Street"
          },
          {
             "Prop_ID": "B018",
             "Name": "Canarsie Park Off-Leash Area",
-            "Address": "All areas excluding the playground, ballfields, and Natural Areas.",
+            "Address": "Seaview Ave & E. 102 St, Brooklyn, NY 11236",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "All areas excluding the playground, ballfields, and Natural Areas."
          },
          {
             "Prop_ID": "B025",
             "Name": "Cooper Park Dog Run",
-            "Address": "Olive Street and Maspeth Avenue",
+            "Address": "331 Morgan Ave, Brooklyn, NY 11211",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Olive Street and Maspeth Avenue"
          },
          {
             "Prop_ID": "B223B",
             "Name": "DiMattina Park Dog Run",
-            "Address": "Hicks & Woodhull streets",
+            "Address": "Hicks & Woodhull streets, Brooklyn, NY 11231",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": ""
@@ -244,7 +244,7 @@
          {
             "Prop_ID": "B028",
             "Name": "Dyker Beach Park Dog Run",
-            "Address": "7th Avenue and 86th Street",
+            "Address": "7th Avenue and 86th Street, Brooklyn NY 11228",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": ""
@@ -252,31 +252,31 @@
          {
             "Prop_ID": "B028",
             "Name": "Dyker Beach Park Off-Leash Area",
-            "Address": "Cropsey Avenue, Bay 8th Street, and Poly Place",
+            "Address": "334 Bay 8th St, Brooklyn, NY 11228",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Cropsey Avenue, Bay 8th Street, and Poly Place"
          },
          {
             "Prop_ID": "B032",
             "Name": "Fort Greene Park Off-Leash Area",
-            "Address": "DeKalb Avenue & Washington Park",
+            "Address": "Washington Park St to St Edward St, Brooklyn, NY 11205",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "DeKalb Avenue & Washington Park"
          },
          {
             "Prop_ID": "B372",
             "Name": "Friends Field Park Off-Leash Area",
-            "Address": "East 4th Street, Avenue L, and McDonald Avenue",
+            "Address": "1310 E 4th St, Brooklyn, NY 11230",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "East 4th Street, Avenue L, and McDonald Avenue"
          },
          {
             "Prop_ID": "B038",
             "Name": "Fulton Park Off-Leash Area",
-            "Address": "",
+            "Address": "Chauncey St, Brooklyn, NY 11233",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -284,7 +284,7 @@
          {
             "Prop_ID": "B401",
             "Name": "Grand Ferry Park Off-Leash Area",
-            "Address": "",
+            "Address": "Grand St & River St, Brooklyn, NY 11211",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -292,50 +292,50 @@
          {
             "Prop_ID": "B088",
             "Name": "Herbert Von King Park Off-Leash Area",
-            "Address": "Marcy Avenue & Lafayette Avenue",
+            "Address": "670 Lafayette Ave, Brooklyn, NY 11216",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Marcy Avenue & Lafayette Avenue"
          },
          {
             "Prop_ID": "B088",
             "Name": "Herbert Von King Park Dog Run",
-            "Address": "Marcy Avenue & Lafayette Avenue",
+            "Address": "670 Lafayette Ave, Brooklyn, NY 11216",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Marcy Avenue & Lafayette Avenue"
          },
          {
             "Prop_ID": "B223G",
             "Name": "Hillside Park Dog Run",
-            "Address": "Columbia Heights & Middagh Street",
+            "Address": "Vine St, Brooklyn, NY 11201",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Columbia Heights & Middagh Street"
          },
          {
             "Prop_ID": "B111",
             "Name": "J.J. Byrne Memorial Park Dog Run",
-            "Address": "3rd to 4th streets, 4th to 5th avenues",
+            "Address": "3rd & 4th St (btwn 4th & 5th Ave), Brooklyn, NY 11215",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "3rd to 4th streets, 4th to 5th avenues"
          },
          {
             "Prop_ID": "B035",
             "Name": "John Paul Jones Park Off-Leash Area",
-            "Address": "4th Avenue and 101st Street",
+            "Address": "101 St Shore Pkwy, Windsor Terrace, NY 11218",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "4th Avenue and 101st Street"
          },
          {
             "Prop_ID": "B129",
             "Name": "Kaiser Park Off-Leash Area",
-            "Address": "Neptune Avenue between West 24th Street & Bayview Avenue, Coney Island Creek",
+            "Address": "Neptune Avenue between West 24th Street & Bayview Avenue, Coney Island Creek, Brooklyn NY 11224",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Neptune Avenue between West 24th Street & Bayview Avenue, Coney Island Creek, Brooklyn NY 11224"
          },
          {
             "Prop_ID": "B052",

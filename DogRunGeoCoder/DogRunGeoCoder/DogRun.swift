@@ -42,9 +42,6 @@ class DogRun {
     
     func getCoordinates() {
         
-//        var coordinates: (Double, Double) = (0.0, 0.0)
-//        let geocoder = CLGeocoder()
-        
         CLGeocoder().geocodeAddressString(self.address, completionHandler: { (placemarks, error) in
             if error != nil {
                 print("\(error)")
@@ -65,8 +62,6 @@ class DogRun {
         })
         
     }
-    
-    
     
 }
 

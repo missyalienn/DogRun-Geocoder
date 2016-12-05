@@ -20,15 +20,16 @@ class ViewController: UIViewController {
         
     print("i can actually print something !!!")
         
-        for index in 22..<32 {
+        for index in 32..<43 {
             let dogRun = store.dogruns[index]
             dogRun.getCoordinates()
             
         }
-    
-        
     }
 
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

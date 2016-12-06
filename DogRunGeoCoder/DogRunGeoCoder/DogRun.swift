@@ -38,9 +38,7 @@ class DogRun {
         }
     }
     
-    
-    
-    
+
     func getCoordinates() {
         
         CLGeocoder().geocodeAddressString(self.address, completionHandler: { (placemarks, error) in
@@ -66,49 +64,37 @@ class DogRun {
                 
             }
             
-            
         })
     }
     
+}
+
+extension DogRun {
     
-    func setCoordinates(index: Int, dogruns: [DogRun]) {
+    var serialized: [String: Any] {
         
-        if index < dogruns.count {
-                
-                let dogPark = dogruns[index] as DogRun
-            
-                    let geocoder = CLGeocoder()
-                    
-                    geocoder.geocodeAddressString(self.address, completionHandler: { (placemarks, error) in
-                        
-                        print("\n\nPROGRESS: Now geocoding for \(self.name)... \(index)")
-                        
-                        if (placemarks?.count)! > 0 {
-                            let placemark = placemarks?[0]
-                            let location = placemark?.location
-                            let coordinate = location?.coordinate
-                            
-                            self.latitude = coordinate?.latitude
-                            self.longitude = coordinate?.longitude
-                            
-                            self.isVerified = true
-                                print("\n\nSUCCESS: Geocoded for \(self.name) at address: \(self.address)! It's located at \(self.latitude), \(self.longitude) \(index)")
-                        }else{
-                            print("D'OH")
-                            print("\n\nFAILURE: \(self.name) at address: \(self.address) could not be geocoded. ERROR: \(error?.localizedDescription) \(index)")
-                        }
-                        
-                    })
-                    setCoordinates(index: index + 1, dogruns: dogruns)
-                }
-            }
-       
-
- }
+        var serialDogRun = [String: Any]()
+        
+        serialDogRun["dogRunID"] = dogRunID
+        serialDogRun["name"] = name
+        serialDogRun["address"] = address
+        serialDogRun["notes"] = notes
+        serialDogRun["isOffLeash"] = isOffLeash
+        serialDogRun["isAccessible"] = isAccessible
+        serialDogRun["isVerified"] = isVerified
+        serialDogRun["latitude"] = latitude
+        serialDogRun["longitude"] = longitude
+      
+        return serialDogRun
+    }
 
     
-    
-    
+}
+
+
+
+
+
 
 
     

@@ -715,14 +715,7 @@
             "Accessible": "N",
             "Notes": "85 Street and 84 Street and Park Lane South"
          },
-         {
-            "Prop_ID": "Q015",
-            "Name": "Forest Park Dog Run",
-            "Address": "Park Lane South & 85th Street",
-            "DogRuns_Type": "Run",
-            "Accessible": "N",
-            "Notes": ""
-         },
+
          {
             "Prop_ID": "Q102",
             "Name": "Juniper Valley Park Off-Leash Area",

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22E84E2DD00A3EBC515AF01E /* Pods_DogRunGeoCoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA48A2D94544248E7040569C /* Pods_DogRunGeoCoder.framework */; };
+		F663E41C1DF75DC300674269 /* SerializeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F663E41B1DF75DC300674269 /* SerializeData.swift */; };
 		F69908081DF0EFAA00B152B4 /* dogrunsnyc.json in Resources */ = {isa = PBXBuildFile; fileRef = F69908071DF0EFAA00B152B4 /* dogrunsnyc.json */; };
 		F699080A1DF0F26E00B152B4 /* jsonParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69908091DF0F26E00B152B4 /* jsonParse.swift */; };
 		F699080F1DF1010300B152B4 /* DogRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = F699080E1DF1010300B152B4 /* DogRun.swift */; };
@@ -45,6 +46,7 @@
 		46237A529763C40DDDD4A7A9 /* Pods-DogRunGeoCoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogRunGeoCoder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DogRunGeoCoder/Pods-DogRunGeoCoder.debug.xcconfig"; sourceTree = "<group>"; };
 		7D379C8012BD151502F0F3AA /* Pods_DogRunGeoCoderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogRunGeoCoderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA48A2D94544248E7040569C /* Pods_DogRunGeoCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogRunGeoCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F663E41B1DF75DC300674269 /* SerializeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializeData.swift; sourceTree = "<group>"; };
 		F69908071DF0EFAA00B152B4 /* dogrunsnyc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dogrunsnyc.json; sourceTree = "<group>"; };
 		F69908091DF0F26E00B152B4 /* jsonParse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jsonParse.swift; sourceTree = "<group>"; };
 		F699080E1DF1010300B152B4 /* DogRun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogRun.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				F6A3B9E91DF0B71400BF901F /* ViewController.swift */,
+				F663E41B1DF75DC300674269 /* SerializeData.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				F6A3B9EA1DF0B71400BF901F /* ViewController.swift in Sources */,
 				F699080F1DF1010300B152B4 /* DogRun.swift in Sources */,
 				F69908131DF1E85700B152B4 /* DogrunDataStore.swift in Sources */,
+				F663E41C1DF75DC300674269 /* SerializeData.swift in Sources */,
 				F6A3B9E81DF0B71400BF901F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

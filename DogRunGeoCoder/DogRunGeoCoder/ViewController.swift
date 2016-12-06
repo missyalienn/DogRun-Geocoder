@@ -20,17 +20,17 @@ class ViewController: UIViewController {
         
     print("i can actually print something !!!")
         
-        for index in 101..<133 {
+        for index in 100..<store.dogruns.count {
             let dogRun = store.dogruns[index]
             dogRun.getCoordinates()
-            print("get coordinates called")
-
+        
         }
 
 //        let testDictionary = [
 //                        "dogruns": [
 //                            "facility": [
 //                            [
+        
 //                            "Prop_ID": "X002",
 //                            "Name": "Bronx Park Off-Leash Area",
 //                            "Address": "Unionport & Sagamore on Bronx Park East to 233rd Street, Bronx, NY",

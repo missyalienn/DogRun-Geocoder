@@ -18,10 +18,7 @@ class jsonParse {
         
         do {
             
-            
             let dogDictionary = try JSONSerialization.jsonObject(with: data as Data, options: []) as! [String : [String : Any]]
-            
-           // guard let dogDictionaryUnwrapped = dogDictionary else { print("error unwrapping dog dict"); return }
             
             completion(dogDictionary)
          

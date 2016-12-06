@@ -20,6 +20,7 @@ class DogRun {
     var notes: String
     var isOffLeash: Bool = false 
     var isAccessible: Bool = false
+    var isVerified: Bool?
     
     init(dogDictionary: [String: Any]) {
         
@@ -55,16 +56,63 @@ class DogRun {
                 self.latitude = coordinate?.latitude
                 self.longitude = coordinate?.longitude
                 
-                dump(self)
+                self.isVerified = true
+                
+                print("- ID: \(self.dogRunID), name: \(self.name), Verified: \(self.isVerified), Lat: \(self.latitude), Long: \(self.longitude) -")
+            } else {
+                self.isVerified = false
+                
+                print("- ID: \(self.dogRunID), name: \(self.name) Verified: \(self.isVerified), Lat: \(self.latitude), Long: \(self.longitude) -")
+                
             }
             
             
         })
-        
     }
     
-}
+    
+    func setCoordinates(index: Int, dogruns: [DogRun]) {
+        
+        if index < dogruns.count {
+                
+                let dogPark = dogruns[index] as DogRun
+            
+                    let geocoder = CLGeocoder()
+                    
+                    geocoder.geocodeAddressString(self.address, completionHandler: { (placemarks, error) in
+                        
+                        print("\n\nPROGRESS: Now geocoding for \(self.name)... \(index)")
+                        
+                        if (placemarks?.count)! > 0 {
+                            let placemark = placemarks?[0]
+                            let location = placemark?.location
+                            let coordinate = location?.coordinate
+                            
+                            self.latitude = coordinate?.latitude
+                            self.longitude = coordinate?.longitude
+                            
+                            self.isVerified = true
+                                print("\n\nSUCCESS: Geocoded for \(self.name) at address: \(self.address)! It's located at \(self.latitude), \(self.longitude) \(index)")
+                        }else{
+                            print("D'OH")
+                            print("\n\nFAILURE: \(self.name) at address: \(self.address) could not be geocoded. ERROR: \(error?.localizedDescription) \(index)")
+                        }
+                        
+                    })
+                    setCoordinates(index: index + 1, dogruns: dogruns)
+                }
+            }
+       
 
+ }
+
+    
+    
+    
+
+
+    
+    
 
 
 

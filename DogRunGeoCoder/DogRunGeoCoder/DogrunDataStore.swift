@@ -13,7 +13,9 @@ class DataStore {
     
   
     static let sharedInstance = DataStore()
+    
     var dogruns = [DogRun]()
+    
     private init() {
         
         // call function to populate arrays with data from JSON

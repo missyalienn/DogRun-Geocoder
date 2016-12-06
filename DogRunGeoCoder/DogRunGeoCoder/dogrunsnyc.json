@@ -65,14 +65,7 @@
             "Accessible": "N",
             "Notes": ""
          },
-         {
-            "Prop_ID": "X010",
-            "Name": "Hylan Park Off-Leash Area",
-            "Address": "",
-            "DogRuns_Type": "Off-Leash",
-            "Accessible": "N",
-            "Notes": "Except for playgrounds and other areas where dogs are expressly prohibited via signage, all areas of the park are off-leash during designated hours."
-         },
+        
          {
             "Prop_ID": "X015",
             "Name": "Joseph Rodman Drake Park Off-Leash Area",
@@ -673,14 +666,7 @@
             "Accessible": "N",
             "Notes": ""
          },
-         {
-            "Prop_ID": "Q005",
-            "Name": "Baisley Pond Park Off-Leash Area",
-            "Address": "Between 119th and 123rd avenues",
-            "DogRuns_Type": "Off-Leash",
-            "Accessible": "N",
-            "Notes": ""
-         },
+        
          {
             "Prop_ID": "Q005",
             "Name": "Baisley Pond Park Off-Leash Area",

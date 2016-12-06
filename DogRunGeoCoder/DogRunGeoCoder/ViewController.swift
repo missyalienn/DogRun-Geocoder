@@ -20,11 +20,34 @@ class ViewController: UIViewController {
         
     print("i can actually print something !!!")
         
-        for index in 0..<store.dogruns.count {
+        for index in 101..<133 {
             let dogRun = store.dogruns[index]
             dogRun.getCoordinates()
-            
+            print("get coordinates called")
+
         }
+
+//        let testDictionary = [
+//                        "dogruns": [
+//                            "facility": [
+//                            [
+//                            "Prop_ID": "X002",
+//                            "Name": "Bronx Park Off-Leash Area",
+//                            "Address": "Unionport & Sagamore on Bronx Park East to 233rd Street, Bronx, NY",
+//                            "DogRuns_Type": "Off-Leash",
+//                            "Accessible": "N",
+//                            "Notes": ""
+//                            ]
+//                        ]
+//            ]
+//        ]
+//        
+//        let jsonDictionary = try! JSONSerialization.data(withJSONObject: testDictionary, options: [])
+//        
+//        let string = String(data: jsonDictionary, encoding: .ascii)
+//        
+//        dump(string!)
+        
     }
 
     

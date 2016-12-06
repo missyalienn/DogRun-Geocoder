@@ -620,7 +620,7 @@
          {
             "Prop_ID": "M053",
             "Name": "Theodore Roosevelt Park Dog Run",
-            "Address": "Central Park West at West 81st Street",
+            "Address": "200 Central Park West, New York, NY 10024",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": ""
@@ -628,47 +628,47 @@
          {
             "Prop_ID": "M047",
             "Name": "Thomas Jefferson Park Dog Run",
-            "Address": "East 112th Street and FDR Drive",
+            "Address": "2180 1st Avenue, New York, NY 10029",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "East 112th Street and FDR Drive"
          },
          {
             "Prop_ID": "M088",
             "Name": "Tompkins Square Park Dog Run",
-            "Address": "1st Avenue to Avenue B, from East 7th to East 10th streets",
+            "Address": "Avenue A & E 7th St, New York, NY 10014",
             "DogRuns_Type": "Run",
             "Accessible": "Y",
-            "Notes": ""
+            "Notes": "1st Avenue to Avenue B, from East 7th to East 10th streets"
          },
          {
             "Prop_ID": "M089",
             "Name": "Union Square Dog Run",
-            "Address": "15th Street & Union Square West",
+            "Address": "E 14th St & University Pl, New York, NY 10003",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "15th Street & Union Square West"
          },
          {
             "Prop_ID": "M098",
             "Name": "Washington Square Park Dog Run",
-            "Address": "5th Avenue, Waverly Place, West 4th Street, between McDougal & Thompson streets, south side of the park (behind building)",
+            "Address": "W 4th & Thompson St, New York, NY 10012",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "5th Avenue, Waverly Place, West 4th Street, between McDougal & Thompson streets, south side of the park (behind building)"
          },
          {
             "Prop_ID": "Q001",
             "Name": "Alley Pond Park Off-Leash Area",
-            "Address": "Grand Central Parkway/Winchester Boulevard/Kingsbury Avenue",
+            "Address": "Union Turnpike, Oakland Gardens, NY 11364",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Grand Central Parkway/Winchester Boulevard/Kingsbury Avenue"
          },
          {
             "Prop_ID": "Q004",
             "Name": "Astoria Park Off-Leash Area",
-            "Address": "",
+            "Address": "19 19th St, Astoria, NY, US, 11102",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -676,7 +676,7 @@
          {
             "Prop_ID": "Q005",
             "Name": "Baisley Pond Park Off-Leash Area",
-            "Address": "Between119th and 123rd avenues",
+            "Address": "Between 119th and 123rd avenues",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -684,15 +684,15 @@
          {
             "Prop_ID": "Q005",
             "Name": "Baisley Pond Park Off-Leash Area",
-            "Address": "Lakeview Lane between Foch Boulevard and Lakeview Lane East",
+            "Address": "Baisley Blvd, Jamaica, NY 11434",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Lakeview Lane between Foch Boulevard and Lakeview Lane East"
          },
          {
             "Prop_ID": "Q007",
             "Name": "Bayswater Park Off-Leash Area",
-            "Address": "",
+            "Address": "Bay 32nd St, Far Rockaway, NY 11691",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -700,7 +700,7 @@
          {
             "Prop_ID": "Q012",
             "Name": "Crocheron Park Off-Leash Area",
-            "Address": "",
+            "Address": "215-01 35th Ave, Bayside, NY 11361",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -708,15 +708,15 @@
          {
             "Prop_ID": "Q021",
             "Name": "Cunningham Park Dog Run",
-            "Address": "193rd Street between Aberdeen Road & Radnor Road",
+            "Address": "193rd St & Radnor Rd, Fresh Meadows, NY 11366",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "193rd Street between Aberdeen Road & Radnor Road"
          },
          {
             "Prop_ID": "Q099",
             "Name": "Flushing Meadows Corona Park Off-Leash Area",
-            "Address": "",
+            "Address": "Flushing Meadows Corona Park, Queens, NY 11368",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -724,10 +724,10 @@
          {
             "Prop_ID": "Q015",
             "Name": "Forest Park Off-Leash Area",
-            "Address": "85 Street and 84 Street and Park Lane South",
+            "Address": "Park Ln S & 85th St, New York, NY 11421",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "85 Street and 84 Street and Park Lane South"
          },
          {
             "Prop_ID": "Q015",
@@ -740,7 +740,7 @@
          {
             "Prop_ID": "Q102",
             "Name": "Juniper Valley Park Off-Leash Area",
-            "Address": "",
+            "Address": "Middle Village, NY 11379",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -748,10 +748,10 @@
          {
             "Prop_ID": "Q393D",
             "Name": "La Guardia Landing Lights Off-Leash Area",
-            "Address": "",
+            "Address": "25 Ave. (78 St), Queens, NY 11370",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Grand Central Parkway, 81 Street & 82 Street & Astoria Boulevard, 23 Avenue 84, 24 thru 30 Avenues, 77 Street through 81 Street"
          },
          {
             "Prop_ID": "Q393D",
@@ -764,31 +764,31 @@
          {
             "Prop_ID": "Q010A",
             "Name": "Little Bay Park Dog Run",
-            "Address": "North side of the Cross Island Parkway & Utopia Parkway",
+            "Address": "Whitestone, NY 11357",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "North side of the Cross Island Parkway & Utopia Parkway"
          },
          {
             "Prop_ID": "Q009",
             "Name": "MacNeil Park Off-Leash Area",
-            "Address": "Mainly zone #1",
+            "Address": "College Point, NY 11356",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Mainly zone #1"
          },
          {
             "Prop_ID": "Q141",
             "Name": "Murray Playground Dog Run",
-            "Address": "21st Street & 45th Road (southeastern side of the park)",
+            "Address": "Long Island City, NY 11101",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "21st Street & 45th Road (southeastern side of the park)"
          },
          {
             "Prop_ID": "Q104",
             "Name": "Queensbridge Park Off-Leash Area",
-            "Address": "",
+            "Address": "21st street, Long Island City, NY 11101",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -796,7 +796,7 @@
          {
             "Prop_ID": "Q048",
             "Name": "Rainey Park Off-Leash Area",
-            "Address": "",
+            "Address": "Vernon Blvd & 34th Ave., Astoria, NY 11106",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -804,7 +804,7 @@
          {
             "Prop_ID": "Q004A",
             "Name": "Ralph DeMarco Park Off-Leash Area",
-            "Address": "",
+            "Address": "Shore Blvd, Queens, NY 11105",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -812,10 +812,10 @@
          {
             "Prop_ID": "Q371",
             "Name": "Rockaway Community Park Off-Leash Area",
-            "Address": "Almeda Avenue between Beach 51st Street and Beach 54th Street",
+            "Address": "Far Rockaway, NY 11691",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Almeda Avenue between Beach 51st Street and Beach 54th Street"
          },
          {
             "Prop_ID": "Q219",
@@ -823,20 +823,20 @@
             "Address": "Rockaway Freeway and Beach 84th Street",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Rockaway Freeway and Beach 84th Street"
          },
          {
             "Prop_ID": "Q341C",
             "Name": "Sherry Park Dog Run",
-            "Address": "Queens Boulevard, 65 Place, and the Brooklyn-Queens Expressway",
+            "Address": "Woodside, NY 11377",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Queens Boulevard, 65 Place, and the Brooklyn-Queens Expressway"
          },
          {
             "Prop_ID": "Q107",
             "Name": "Springfield Park Off-Leash Area",
-            "Address": "",
+            "Address": "Springfield Gardens, NY 11413",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -844,66 +844,66 @@
          {
             "Prop_ID": "Q451",
             "Name": "Underbridge Playground Dog Run",
-            "Address": "64th Avenue/64th Road on Grand Central Parkway service road",
+            "Address": "64th Avenue on Grand Central Parkway Forest Hills, NY 11375",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "64th Avenue/64th Road on Grand Central Parkway service road"
          },
          {
             "Prop_ID": "Q013",
             "Name": "Veteran's Grove Dog Run",
-            "Address": "Judge Street & Whitney Avenue (south side of Park)",
+            "Address": "Judge Street & Whitney Avenue, Queens NY",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Judge Street & Whitney Avenue (south side of Park)"
          },
          {
             "Prop_ID": "Q031A",
             "Name": "Windmuller Park Dog Run (Doughboy Plaza)",
-            "Address": "Woodside Avenue, 54-56 streets",
+            "Address": "Woodside Ave (54th St.), Queens, NY 11377",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Woodside Avenue, 54-56 streets"
          },
          {
             "Prop_ID": "Q425",
             "Name": "Yellowstone Park Off-Leash Area",
-            "Address": "Sitting area located at 68 Road and Yellowstone Boulevard.",
+            "Address": "6766 108th St, Forest Hills, NY 11375",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": "Hours: 6:00 a.m. to 9:00 a.m. only"
+            "Notes": "Sitting area located at 68 Road and Yellowstone Boulevard. Hours: 6:00 a.m. to 9:00 a.m. only"
          },
          {
             "Prop_ID": "R052",
             "Name": "Allison Park Off-Leash Area",
-            "Address": "Field at the end of the trail bordered by Prospect Avenue, Sailors Snug Harbor Cemetery, and the pond.",
+            "Address": "Prospect Ave., N Randall Ave. and Brentwood Ave",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Field at the end of the trail bordered by Prospect Avenue, Sailors Snug Harbor Cemetery, and the pond."
          },
          {
             "Prop_ID": "R059",
             "Name": "Arthur Von Briesen Park Off-Leash Area",
-            "Address": "Lawn area, mid-park right side",
+            "Address": "Bay St and Wadsworth Ave, Staten Island, NY 10305",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Lawn area, mid-park right side"
          },
          {
             "Prop_ID": "R005",
             "Name": "Clove Lakes Park Off-Leash Area",
-            "Address": "Open field above picnic area near Royal Oak Rd. & Rice Ave.",
+            "Address": "1150 Clove Rd, Staten Island, NY 10301",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Open field above picnic area near Royal Oak Rd. & Rice Ave."
          },
          {
             "Prop_ID": "R070",
             "Name": "Clove’s Tail Park Off-Leash Area",
-            "Address": "Lawn area, corner of Victory Boulevard & Little Clove Road",
+            "Address": "Little Clove Rd, Staten Island, NY 10314",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Lawn area, corner of Victory Boulevard & Little Clove Road"
          },
          {
             "Prop_ID": "R006",
@@ -911,31 +911,31 @@
             "Address": "South of Visitors Center on Satterlee Street between Claremont Avenue & Billopp Street",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "South of Visitors Center on Satterlee Street between Claremont Avenue & Billopp Street"
          },
          {
             "Prop_ID": "R027",
             "Name": "Cozzens Woods Park Off-Leash Area",
-            "Address": "Page Avenue between Hylan Boulevard & Amboy Road",
+            "Address": "Page Ave (Hylan Blvd), Staten Island, NY 10307,
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Page Avenue between Hylan Boulevard & Amboy Road"
          },
          {
             "Prop_ID": "R135",
             "Name": "Crescent Beach Park Off-Leash Area",
-            "Address": "Tennyson Drive & Glover Avenue. Located at meadow area leading to beach",
+            "Address": "Hales Ave & Wiman Ave, Staten Island, NY 10308",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Tennyson Drive & Glover Avenue. Located at meadow area leading to beach"
          },
          {
             "Prop_ID": "R121",
             "Name": "Evergreen Park Off-Leash Area",
-            "Address": "Greaves Avenue & Evergreen Street",
+            "Address": "Greaves Avenue & Evergreen Street, Staten Island, NY",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Greaves Avenue & Evergreen Street"
          },
          {
             "Prop_ID": "R075A",
@@ -943,7 +943,7 @@
             "Address": "Lawn area beyond ballfield",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Lawn area beyond ballfield"
          },
          {
             "Prop_ID": "R079",
@@ -951,7 +951,7 @@
             "Address": "Bottom of Seguine Avenue at Johnston Terrace; just below playground",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Bottom of Seguine Avenue at Johnston Terrace; just below playground"
          },
          {
             "Prop_ID": "R149",
@@ -967,7 +967,7 @@
             "Address": "Victory Boulevard below the pavilion, across from the Parkview Apartments",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Victory Boulevard below the pavilion, across from the Parkview Apartments"
          },
          {
             "Prop_ID": "R046",
@@ -983,7 +983,7 @@
             "Address": "Archery Range Field",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Archery Range Field"
          },
          {
             "Prop_ID": "R031",
@@ -991,7 +991,7 @@
             "Address": "Run is to left of Cornelia Avenue",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Run is to left of Cornelia Avenue"
          },
          {
             "Prop_ID": "R005",
@@ -1007,7 +1007,7 @@
             "Address": "King Street, Richards Street, and Verona Street at Dwight and Pioneer Streets",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Brookside Avenue between Alpine Court & Kingsley Avenue (lawn area)"
          },
          {
             "Prop_ID": "M017",
@@ -1015,7 +1015,7 @@
             "Address": "Cherry Street and Jackson Street (on the north side of the park building)",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Cherry Street and Jackson Street (on the north side of the park building)"
          },
          {
             "Prop_ID": "M108Q1",
@@ -1023,7 +1023,7 @@
             "Address": "East River at 63rd Street",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "East River at 63rd Street"
          },
          {
             "Prop_ID": "R065",
@@ -1031,7 +1031,7 @@
             "Address": "Between Amboy Road and Hylan Boulevard",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Between Amboy Road and Hylan Boulevard"
          },
          {
             "Prop_ID": "R106",
@@ -1039,7 +1039,7 @@
             "Address": "Maguire Avenue behind athletic fields closer to Romona Avenue",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "Maguire Avenue behind athletic fields closer to Romona Avenue"
          },
          {
             "Prop_ID": "Q471",
@@ -1055,7 +1055,7 @@
             "Address": "43rd Street & Skillman Avenue",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "43rd Street & Skillman Avenue"
          },
          {
             "Prop_ID": "B012",
@@ -1063,7 +1063,7 @@
             "Address": "St. Mark's Ave., Park Pl. bet. Brooklyn Ave. and Kingston Ave.",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": "Except for playgrounds and other areas where dogs are expressly prohibited via signage, all areas of the park are off-leash during designated hours."
+            "Notes": " St. Mark's Ave.,Park Pl. bet. Brooklyn Ave. and Kingston Ave. Except for playgrounds and other areas where dogs are expressly prohibited via signage, all areas of the park are off-leash during designated hours."
          },
          {
             "Prop_ID": "B025",
@@ -1071,7 +1071,7 @@
             "Address": "At the intersection of Morgan Avenue and Sharon Street",
             "DogRuns_Type": "Run",
             "Accessible": "N",
-            "Notes": ""
+            "Notes": "At the intersection of Morgan Avenue and Sharon Street"
          }
       ],
       "_xmlns": "http://www.nycgovparks.org/bigapps/desc/DPR_DogRuns_001.txt"

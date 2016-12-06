@@ -916,7 +916,7 @@
          {
             "Prop_ID": "R027",
             "Name": "Cozzens Woods Park Off-Leash Area",
-            "Address": "Page Ave (Hylan Blvd), Staten Island, NY 10307,
+            "Address": "Page Ave (Hylan Blvd), Staten Island, NY 10307",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": "Page Avenue between Hylan Boulevard & Amboy Road"
@@ -948,15 +948,15 @@
          {
             "Prop_ID": "R079",
             "Name": "Lemon Creek Park Off-Leash Area",
-            "Address": "Bottom of Seguine Avenue at Johnston Terrace; just below playground",
+            "Address": "Hylan Blvd, Staten Island, NY 10309",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": "Bottom of Seguine Avenue at Johnston Terrace; just below playground"
+            "Notes": "Bottom of Seguine Avenue at Johnston Terrace just below playground"
          },
          {
             "Prop_ID": "R149",
             "Name": "Ocean Breeze Park Off-Leash Area",
-            "Address": "",
+            "Address": "Nugent Ave, Staten Island, NY 10305",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": ""
@@ -964,7 +964,7 @@
          {
             "Prop_ID": "R022",
             "Name": "Silver Lake Park Dog Run",
-            "Address": "Victory Boulevard below the pavilion, across from the Parkview Apartments",
+            "Address": "Silver Lake Park Rd, Staten Island, NY 10301",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": "Victory Boulevard below the pavilion, across from the Parkview Apartments"
@@ -972,7 +972,7 @@
          {
             "Prop_ID": "R046",
             "Name": "South Beach Park Off-Leash Area",
-            "Address": "",
+            "Address": "Father Capodanno Blvd & Sand Ln, Staten Island, NY 10301",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": "On sand after Labor Day and before Memorial Day"
@@ -988,7 +988,7 @@
          {
             "Prop_ID": "R031",
             "Name": "Wolfe's Pond Park Dog Run",
-            "Address": "Run is to left of Cornelia Avenue",
+            "Address": "420 Cornelia Ave, Staten Island, NY 10312",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": "Run is to left of Cornelia Avenue"
@@ -996,23 +996,23 @@
          {
             "Prop_ID": "R005",
             "Name": "Clove Lakes Park Off-Leash Area",
-            "Address": "Brookside Avenue between Alpine Court & Kingsley Avenue (lawn area)",
-            "DogRuns_Type": "Off-Leash",
-            "Accessible": "N",
-            "Notes": ""
-         },
-         {
-            "Prop_ID": "B077",
-            "Name": "Coffey Park Off-Leash Area",
-            "Address": "King Street, Richards Street, and Verona Street at Dwight and Pioneer Streets",
+            "Address": "1150 Clove Rd, Staten Island, NY 10301",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": "Brookside Avenue between Alpine Court & Kingsley Avenue (lawn area)"
          },
          {
+            "Prop_ID": "B077",
+            "Name": "Coffey Park Off-Leash Area",
+            "Address": "85 Richards St, Brooklyn, NY 11231",
+            "DogRuns_Type": "Off-Leash",
+            "Accessible": "N",
+            "Notes": "King Street, Richards Street, and Verona Street at Dwight and Pioneer Streets"
+         },
+         {
             "Prop_ID": "M017",
             "Name": "Corlears Hook Park Dog Run",
-            "Address": "Cherry Street and Jackson Street (on the north side of the park building)",
+            "Address": "397 FDR Drive, New York, NY 10002",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": "Cherry Street and Jackson Street (on the north side of the park building)"
@@ -1020,7 +1020,7 @@
          {
             "Prop_ID": "M108Q1",
             "Name": "East River Esplanade at 63rd Street Dog Run",
-            "Address": "East River at 63rd Street",
+            "Address": "63rd St at York Ave, New York, NY 10065",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": "East River at 63rd Street"
@@ -1028,7 +1028,7 @@
          {
             "Prop_ID": "R065",
             "Name": "Amundsen Trail Off-Leash Area",
-            "Address": "Between Amboy Road and Hylan Boulevard",
+            "Address": "Between Amboy Road and Hylan Boulevard, Staten Island NY",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
             "Notes": "Between Amboy Road and Hylan Boulevard"
@@ -1036,7 +1036,7 @@
          {
             "Prop_ID": "R106",
             "Name": "Bloomingdale Park Dog Run",
-            "Address": "Maguire Avenue behind athletic fields closer to Romona Avenue",
+            "Address": "Maguire Avenue behind athletic fields closer to Romona Avenue, Staten Island NY 10309",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": "Maguire Avenue behind athletic fields closer to Romona Avenue"
@@ -1044,7 +1044,7 @@
          {
             "Prop_ID": "Q471",
             "Name": "Hunter's Point South Park Dog Run",
-            "Address": "",
+            "Address": "Vernon Blvd & 48th Ave,New York, NY 11101",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": ""
@@ -1052,7 +1052,7 @@
          {
             "Prop_ID": "Q340",
             "Name": "Torsney/Lou Lodati Playground Dog Run",
-            "Address": "43rd Street & Skillman Avenue",
+            "Address": "41-15 Skillman Ave, Long Island City, NY 11104",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": "43rd Street & Skillman Avenue"
@@ -1060,15 +1060,15 @@
          {
             "Prop_ID": "B012",
             "Name": "Brower Park",
-            "Address": "St. Mark's Ave., Park Pl. bet. Brooklyn Ave. and Kingston Ave.",
+            "Address": "St. Mark's Ave., Park Pl. bet. Brooklyn Ave. and Kingston Ave, Brooklyn, NY 11213",
             "DogRuns_Type": "Off-Leash",
             "Accessible": "N",
-            "Notes": " St. Mark's Ave.,Park Pl. bet. Brooklyn Ave. and Kingston Ave. Except for playgrounds and other areas where dogs are expressly prohibited via signage, all areas of the park are off-leash during designated hours."
+            "Notes": "St. Mark's Ave.,Park Pl. bet. Brooklyn Ave. and Kingston Ave. Except for playgrounds and other areas where dogs are expressly prohibited via signage, all areas of the park are off-leash during designated hours."
          },
          {
             "Prop_ID": "B025",
             "Name": "Cooper Park",
-            "Address": "At the intersection of Morgan Avenue and Sharon Street",
+            "Address": "Maspeth Ave, Brooklyn, NY 11211",
             "DogRuns_Type": "Run",
             "Accessible": "N",
             "Notes": "At the intersection of Morgan Avenue and Sharon Street"

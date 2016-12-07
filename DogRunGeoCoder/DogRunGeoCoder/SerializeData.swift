@@ -17,12 +17,10 @@ class FirebaseInteractor {
     
     
     static let shared = FirebaseInteractor()
+    var ref: FIRDatabaseReference!
+    private init() {}
     
-    private init() {
-        
-    }
     
-    let ref = FIRDatabase.database().reference()
 }
 
 // MARK: - DogRun 
@@ -34,7 +32,7 @@ extension FirebaseInteractor {
     
     func createData(with dogruns: [DogRun]) -> [String: [String: Any]] {
         var data = [String: [String: Any]]()
-        
+        self.ref = FIRDatabase.database().reference()
         for dogrun in dogruns {
             
             let key = ref.childByAutoId().key
@@ -47,8 +45,10 @@ extension FirebaseInteractor {
     }
     
     func serializeAndStoreDataOnFirebase() {
+        self.ref = FIRDatabase.database().reference()
+        print(ref)
         
-        let dogrunsRef = ref.child("dogruns")
+        let dogrunsRef = self.ref.child("dogruns")
         let data = createData(with: DataStore.sharedInstance.dogruns)
     
         

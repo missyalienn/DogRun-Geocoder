@@ -9,13 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let store = DataStore.sharedInstance
+    let firebaseInteractor = FirebaseInteractor.shared
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-      
-        
-        let store = DataStore.sharedInstance
-        let firebaseInteractor = FirebaseInteractor.shared
+    
         
         store.populateDogrunsFromJSON()
         print(store.dogruns.count)
@@ -29,7 +30,10 @@ class ViewController: UIViewController {
     }
 
     
-    
+    @IBAction func firebaseButton(_ sender: Any) {
+        
+       firebaseInteractor.serializeAndStoreDataOnFirebase()
+    }
     
 
 

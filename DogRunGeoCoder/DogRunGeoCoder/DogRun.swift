@@ -71,23 +71,24 @@ class DogRun {
 
 extension DogRun {
     
-    var serialized: [String: Any] {
+    var serialized: [String: [String: Any]] {
         
-        var serialDogRun = [String: Any]()
+        var serialDogDictionary =  [String: [String: Any]]()
         
-        serialDogRun["dogRunID"] = dogRunID
-        serialDogRun["name"] = name
-        serialDogRun["address"] = address
-        serialDogRun["notes"] = notes
-        serialDogRun["isOffLeash"] = isOffLeash
-        serialDogRun["isAccessible"] = isAccessible
-        serialDogRun["isVerified"] = isVerified
-        serialDogRun["latitude"] = latitude
-        serialDogRun["longitude"] = longitude
+        serialDogDictionary[dogRunID] = [
+            "name": name,
+            "address": address,
+            "notes":notes,
+            "isOffLeash": isOffLeash,
+            "isAccessible":isAccessible,
+            "isVerified": isVerified,
+            "latitude":latitude,
+            "longitude":longitude,
+        ]
       
-        return serialDogRun
+         return serialDogDictionary
+    
     }
-
     
 }
 

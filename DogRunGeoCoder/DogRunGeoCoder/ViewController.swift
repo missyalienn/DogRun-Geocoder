@@ -20,10 +20,10 @@ class ViewController: UIViewController {
         
     print("i can actually print something !!!")
         
-        for index in 100..<store.dogruns.count {
+        for index in 0..<50 {
             let dogRun = store.dogruns[index]
             dogRun.getCoordinates()
-        
+    
         }
 
 //        let testDictionary = [

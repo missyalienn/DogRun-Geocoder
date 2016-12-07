@@ -7,7 +7,9 @@
 //
 
 import Foundation
-
+import FirebaseDatabase
+import FirebaseCore
+import Firebase
 
 class DataStore {
     
@@ -22,8 +24,8 @@ class DataStore {
         
     }
     
-    
-    func getDogRunFromJSON() {
+    // MARK: Populate DogRuns from JSON file...
+    func populateDogrunsFromJSON() {
         self.dogruns = []
         jsonParse.getDogRuns { (dogDictionary) in
             if let innerDictionary = dogDictionary["dogruns"]?["facility"] as? [[String : Any]]{
@@ -35,10 +37,27 @@ class DataStore {
         }
     }
 
-   
-
     
+    func getDogrunsFromJSON() {
+        populateDogrunsFromJSON()
     }
+
+// MARK: add local arrays to Firebase 
+    
+    func addDogRunsToFirebase() {
+        
+        for dogrun in dogruns {
+            Fire
+         
+            
+        }
+    }
+    
+    
+    
+    
+    
+}
     
     
     

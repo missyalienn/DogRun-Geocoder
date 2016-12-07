@@ -42,14 +42,13 @@ class DataStore {
         populateDogrunsFromJSON()
     }
 
-// MARK: add local arrays to Firebase 
+// MARK: add local array of dogruns to Firebase (from Pups&Playgrounds Project File) 
     
     func addDogRunsToFirebase() {
         
         for dogrun in dogruns {
-            Fire
-         
-            
+          FirebaseInteractor.addDogrunsToFirebase(name: dogrun.name, address: dogrun.address, latitude: dogrun.latitude, longitude: dogrun.longitude, isAccessible: dogrun.isAccessible, isOffLeash: dogrun.isOffLeash, notes: dogrun.notes)
+
         }
     }
     

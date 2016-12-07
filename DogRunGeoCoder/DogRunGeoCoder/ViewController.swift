@@ -15,48 +15,22 @@ class ViewController: UIViewController {
       
         
         let store = DataStore.sharedInstance
-        store.getDogRunFromJSON()
-        print(store.dogruns.count)
+        let firebaseInteractor = FirebaseInteractor.shared
         
-    print("i can actually print something !!!")
+        store.populateDogrunsFromJSON()
+        print(store.dogruns.count)
         
         for index in 0..<50 {
             let dogRun = store.dogruns[index]
             dogRun.getCoordinates()
     
         }
-
-//        let testDictionary = [
-//                        "dogruns": [
-//                            "facility": [
-//                            [
-        
-//                            "Prop_ID": "X002",
-//                            "Name": "Bronx Park Off-Leash Area",
-//                            "Address": "Unionport & Sagamore on Bronx Park East to 233rd Street, Bronx, NY",
-//                            "DogRuns_Type": "Off-Leash",
-//                            "Accessible": "N",
-//                            "Notes": ""
-//                            ]
-//                        ]
-//            ]
-//        ]
-//        
-//        let jsonDictionary = try! JSONSerialization.data(withJSONObject: testDictionary, options: [])
-//        
-//        let string = String(data: jsonDictionary, encoding: .ascii)
-//        
-//        dump(string!)
         
     }
 
     
     
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
 
 
 }

@@ -27,7 +27,7 @@ class FirebaseInteractor {
 
 // MARK: - DogRun 
 
-extension FirebaseInteractor{
+extension FirebaseInteractor {
     
     // first create data ... 
     // then store on Firebase
@@ -46,6 +46,26 @@ extension FirebaseInteractor{
         return data
     }
     
+    func serializeAndStoreDataOnFirebase() {
+        
+        let dogrunsRef = ref.child("dogruns")
+        let data = createData(with: DataStore.sharedInstance.dogruns)
+    
+        
+    }
+    
+    func storeOnFirebase(data: [String: [String:Any]], in reference: FIRDatabaseReference) {
+        
+        reference.updateChildValues(data) { (error, ref) in
+            if let error = error {
+                print(error.localizedDescription)
+                print("error trying to store dogruns")
+            } else {
+                print("it worked! success! successful storage at \(reference)")
+            }
+        }
+        
+    }
     
     
     
@@ -60,20 +80,7 @@ extension FirebaseInteractor{
 
     }
     
-    
-    
 
-    func storeSerializedDataOnFirebase() {
-        
-        let dogrunsRef = ref.child("dogruns")
-       // let data = createData(with)
-    
-        
-    }
-    
-    
-    
-    
     
 }
     

@@ -17,42 +17,31 @@ class FirebaseInteractor {
     
     
     static let shared = FirebaseInteractor()
-    var ref: FIRDatabaseReference!
+    static let ref = FIRDatabase.database().reference()
     private init() {}
     
     
 }
 
+
+//    func serializeAndStoreDataOnFirebase() {
+//        self.ref = FIRDatabase.database().reference()
+//        print(ref)
+//
+//        let dogrunsRef = self.ref.child("dogruns")
+//        let data = createData(with: DataStore.sharedInstance.dogruns)
+//    }
+
+
+
+
+
+
+
 // MARK: - DogRun 
 
 extension FirebaseInteractor {
     
-    // first create data ... 
-    // then store on Firebase
-    
-    func createData(with dogruns: [DogRun]) -> [String: [String: Any]] {
-        var data = [String: [String: Any]]()
-        self.ref = FIRDatabase.database().reference()
-        for dogrun in dogruns {
-            
-            let key = ref.childByAutoId().key
-            data[key] = dogrun.serialized
-            //geoFireStore(key: key, dogrun: dogrun) 
-            print("\(dogrun.name) serialized")
-        }
-        
-        return data
-    }
-    
-    func serializeAndStoreDataOnFirebase() {
-        self.ref = FIRDatabase.database().reference()
-        print(ref)
-        
-        let dogrunsRef = self.ref.child("dogruns")
-        let data = createData(with: DataStore.sharedInstance.dogruns)
-    
-        
-    }
     
     func storeOnFirebase(data: [String: [String:Any]], in reference: FIRDatabaseReference) {
         
@@ -69,14 +58,15 @@ extension FirebaseInteractor {
     
     
     
-    // Adding local JSON files to Firebase
+    // Adding geocoded dogruns to FireBase
+    
 
     static func addDogrunsToFirebase(name: String, address: String, latitude: Double?, longitude: Double?, isAccessible: Bool, isOffLeash: Bool, notes: String) {
         
         let ref = FIRDatabase.database().reference().root
         let uniqueLocationKey = FIRDatabase.database().reference().childByAutoId().key
         
-        ref.child("locations").child("dogruns").updateChildValues(["DR-\(uniqueLocationKey)":["name": name, "location": address, "isHandicap": isAccessible, "dogRunType": isOffLeash, "notes": notes, "isFlagged": "false"]])
+        ref.child("locations").child("dogruns").updateChildValues(["DR-\(uniqueLocationKey)":["name": name, "address": address, "isHandicap": isAccessible, "dogRunType": isOffLeash, "notes": notes, "isFlagged": "false", "latitude": latitude ?? 0, "longitude": longitude ?? 0]])
 
     }
     

@@ -81,13 +81,12 @@ extension DogRun {
             "notes":notes,
             "isOffLeash": isOffLeash,
             "isAccessible":isAccessible,
-            "isVerified": isVerified,
-            "latitude":latitude,
-            "longitude":longitude,
+            "latitude": latitude ?? 0,
+            "longitude": longitude ?? 0
         ]
-      
-         return serialDogDictionary
-    
+        
+        return serialDogDictionary
+        
     }
     
 }

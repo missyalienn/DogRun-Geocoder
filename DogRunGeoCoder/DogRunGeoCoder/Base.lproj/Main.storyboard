@@ -21,16 +21,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lSP-1v-ZKn">
-                                <rect key="frame" x="121" y="279" width="115" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Firebase"/>
-                                <connections>
-                                    <action selector="firebaseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="okU-G8-Yni"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="qBl-5v-eEF">
+                                <rect key="frame" x="149.5" y="258.5" width="76" height="150"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PUF-Kj-4uM">
+                                        <rect key="frame" x="0.0" y="0.0" width="76" height="30"/>
+                                        <state key="normal" title="Geocode"/>
+                                        <connections>
+                                            <action selector="geocodeLocations:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nwl-Qz-VW1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lSP-1v-ZKn">
+                                        <rect key="frame" x="0.0" y="60" width="76" height="30"/>
+                                        <state key="normal" title="Serialize"/>
+                                        <connections>
+                                            <action selector="serializeDogRuns:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ofN-mW-Izu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNI-Wu-Q2m">
+                                        <rect key="frame" x="0.0" y="120" width="76" height="30"/>
+                                        <state key="normal" title="Save To FB"/>
+                                        <connections>
+                                            <action selector="saveToFirebase:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lvw-aD-EkN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qBl-5v-eEF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AqR-wh-2Rg"/>
+                            <constraint firstItem="qBl-5v-eEF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="VYs-rO-kNU"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
